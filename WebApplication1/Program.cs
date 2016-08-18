@@ -11,6 +11,7 @@ namespace WebApplication1
     {
         public static void Main(string[] args)
         {
+            // comment - edited in VS IDE
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
